@@ -1,0 +1,37 @@
+a:link {
+    text-decoration: none;
+    color: black;
+}
+
+a:visited {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    text-decoration: none;
+    color: black;
+}
+
+.login_textbox {
+    background: whitesmoke;
+    border-style: solid;
+    border-left: whitesmoke;
+    border-right-color: whitesmoke;
+    border-top-color: whitesmoke;
+    border-bottom-width: medium;
+    border-bottom-color: #CCCCCC;
+    width: 340px;
+    margin-bottom: 5px;
+}
+
+.button {
+    background: whitesmoke;
+    border-style: solid;
+    border-left: whitesmoke;
+    border-right-color: whitesmoke;
+    border-top-color: whitesmoke;
+    border-bottom-width: medium;
+    border-bottom-color: #ff7f2a;
+    margin-bottom: 5px;
+}
