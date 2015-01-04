@@ -19,7 +19,7 @@ $qr = new BarcodeQR();
             <br /><br />
             <?php
             $tiny = $db->createShorten($_POST['url']);
-            echo $db->createShorten($_POST['url']);
+            echo "http://carlit.us/?".$db->createShorten($_POST['url']);
             ?><br /><br />
             <?php
             $qr->url("http://".$_SERVER['HTTP_HOST']."/?".$tiny);
