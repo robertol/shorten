@@ -23,8 +23,8 @@ $qr = new BarcodeQR();
             ?><br /><br />
             <?php
             $qr->url("http://".$_SERVER['HTTP_HOST']."/?".$tiny);
-            $qr->draw(150,"./qrcode/qr-code.png");
-            ?><img src="./qrcode/qr-code.png" />
+            $qr->draw(150,"qrcode/qr-code.png");
+            ?><img src="qrcode/qr-code.png" />
         </div>
     </body>
 </html>
