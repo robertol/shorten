@@ -12,7 +12,7 @@ $uri = $_SERVER['REQUEST_URI'];
 <html>
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-        <title>carlit.us - shorten url</title>
+        <title><?=$_SERVER['HTTP_HOST']?> - shorten url</title>
         <link rel="stylesheet" type="text/css" href="css/style.css">
     </head>
     <body>

@@ -12,6 +12,7 @@ class database {
         mysql_select_db($this->bd) or die(mysql_error());
     }
 
+    // function not used
     public function desconnect() {
         mysql_close();
     }
@@ -27,13 +28,13 @@ class database {
                 $url = $urlNova;
             }
 
-            $a = str_shuffle('abcdefghijklmnopqrstuvwxyz1234567890');
-            $tiny = substr($a, 0, 6);
+            $a = str_shuffle('abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ1234567890');
+            $tiny = substr($a, 0, 5);
             $this->connect();
 
             mysql_query("INSERT INTO link(url,tiny) VALUES('$url','$tiny')");
 
-            echo "Your shorten url:<br><br><b>http://carlit.us/?" . $tiny . "</b>";
+            return $tiny;
         }
     }
 
