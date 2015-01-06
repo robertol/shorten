@@ -1,2 +1,8 @@
-Shorten link 0.1
-Sorry about the bad code, I'll improve it in other versions ;).
+Shorten link 0.2
+
+Install
+-------
+1) Create database on MySQL shorten_link
+2) Import shorten.sql
+3) mkdir qrcode on shorten directory
+4) chmod 777 qrcode
